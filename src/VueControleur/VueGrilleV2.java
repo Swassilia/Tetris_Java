@@ -106,8 +106,7 @@ class VueGrilleV2 extends JPanel implements Observer
                     {
                         if (modele.getNextPiece().getMatrice(i,j)) {
                             g.setColor(Color.pink);
-                            g.fillRect((modele.getNextPiece().getx() + i+6) *TAILLE,
-                                    (modele.getNextPiece().gety() + j+10) * TAILLE, TAILLE, TAILLE);
+                            g.fillRect((modele.getNextPiece().getx() + i+6) *TAILLE, (modele.getNextPiece().gety() + j+10) * TAILLE, TAILLE, TAILLE);
                         }
                     }
                 }
@@ -134,3 +133,34 @@ class VueGrilleV2 extends JPanel implements Observer
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
